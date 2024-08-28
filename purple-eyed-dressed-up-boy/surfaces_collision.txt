@@ -1,0 +1,47 @@
+// ===================================================================
+// 基礎設定
+// ===================================================================
+charset,UTF-8
+
+descript
+{
+version,1
+}
+
+// ===================================================================
+// カーソル
+// ===================================================================
+sakura.cursor
+{
+mouseup0,Head,system:hand
+mouseup1,Shoulder,system:hand
+mouseup2,Hand,system:hand
+}
+
+// ===================================================================
+// 当たり判定
+// ===================================================================
+
+// 通常
+surface.append0,1,3,4,5,6,8
+{
+collisionex0,Head,region,collision/normal.png,255,0,0
+collisionex1,Shoulder,region,collision/normal.png,255,255,0
+collisionex2,Hand,region,collision/normal.png,0,255,0
+}
+
+// 驚き
+surface.append2
+{
+collisionex0,Head,region,collision/surprise.png,255,0,0
+collisionex1,Shoulder,region,collision/surprise.png,255,255,0
+collisionex2,Hand,region,collision/surprise.png,0,255,0
+}
+
+// 怒り
+surface.append7,9
+{
+collisionex0,Head,region,collision/angry.png,255,0,0
+collisionex1,Shoulder,region,collision/angry.png,255,255,0
+collisionex2,Hand,region,collision/angry.png,0,255,0
+}

@@ -1,0 +1,4 @@
+﻿charset,UTF-8
+name,パープル・アイの着せ替えボーイ
+type,shell
+directory,purple-eyed-dressed-up-boy
